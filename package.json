@@ -2,6 +2,6 @@
   "name": "com.sleepyape.framework",
   "displayName": "SleepyApe Framework",
   "description": "ScriptableObject based framework.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2020.4"
 }
