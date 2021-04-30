@@ -1,8 +1,12 @@
 {
-    "name": "SleepyApe",
+    "name": "SleepyApe.Framework.Editor",
     "rootNamespace": "SleepyApe",
-    "references": [],
-    "includePlatforms": [],
+    "references": [
+        "GUID:5e73d122fc8aeef41bb80fcc9145e2ae"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
