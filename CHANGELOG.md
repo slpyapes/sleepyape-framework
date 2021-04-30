@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/sickape/sleepyape-framework/compare/v1.1.0...v1.1.1) (2021-04-30)
+
+
+### Bug Fixes
+
+* minimum unity required ([2868be2](https://github.com/sickape/sleepyape-framework/commit/2868be2553c13faeca8fddb8fc96405ad24f3ade))
+
 # [1.1.0](https://github.com/sickape/sleepyape-framework/compare/v1.0.1...v1.1.0) (2021-04-30)
 
 
