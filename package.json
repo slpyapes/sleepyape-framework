@@ -3,5 +3,5 @@
   "displayName": "SleepyApe Framework",
   "description": "ScriptableObject based framework.",
   "version": "1.1.0",
-  "unity": "2020.4"
+  "unity": "2020.3"
 }
