@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/sickape/sleepyape-framework/compare/v1.1.1...v1.1.2) (2021-06-03)
+
+
+### Bug Fixes
+
+* using cast instead of 'as' expression on ObjectVariable ([da09d65](https://github.com/sickape/sleepyape-framework/commit/da09d65378975fd051534b9428a0decc0faa51f7))
+
 ## [1.1.1](https://github.com/sickape/sleepyape-framework/compare/v1.1.0...v1.1.1) (2021-04-30)
 
 
