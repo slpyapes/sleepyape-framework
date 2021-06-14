@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/sickape/sleepyape-framework/compare/v1.1.3...v1.2.0) (2021-06-14)
+
+
+### Features
+
+* add Vector2 and Vector3 variable ([8300967](https://github.com/sickape/sleepyape-framework/commit/8300967d001bd469991eec4ad04be4610dcdde97))
+
 ## [1.1.3](https://github.com/sickape/sleepyape-framework/compare/v1.1.2...v1.1.3) (2021-06-14)
 
 
