@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/sickape/sleepyape-framework/compare/v1.1.2...v1.1.3) (2021-06-14)
+
+
+### Bug Fixes
+
+* support for unity 2019 ([edf1c5f](https://github.com/sickape/sleepyape-framework/commit/edf1c5f95a52de3ea287381ad0a85fac81b90000))
+
 ## [1.1.2](https://github.com/sickape/sleepyape-framework/compare/v1.1.1...v1.1.2) (2021-06-03)
 
 
