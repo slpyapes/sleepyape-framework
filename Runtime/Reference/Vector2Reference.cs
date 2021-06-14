@@ -4,7 +4,7 @@ using UnityEngine;
 namespace SleepyApe
 {
     [Serializable]
-    public class Vector2Reference : Reference<Vector3, Vector2Variable>
+    public class Vector2Reference : Reference<Vector2, Vector2Variable>
     {
     }
 }
