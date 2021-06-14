@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/sickape/sleepyape-framework/compare/v1.2.0...v1.2.1) (2021-06-14)
+
+
+### Bug Fixes
+
+* Vector2Variable use Variable<Vector3> instead of Variable<Vector2> ([1ceca57](https://github.com/sickape/sleepyape-framework/commit/1ceca5780bd1f079ad34b5d4738228693c827a28))
+
 # [1.2.0](https://github.com/sickape/sleepyape-framework/compare/v1.1.3...v1.2.0) (2021-06-14)
 
 
