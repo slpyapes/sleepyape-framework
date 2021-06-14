@@ -3,5 +3,10 @@
   "displayName": "SleepyApe Framework",
   "description": "ScriptableObject based framework.",
   "version": "1.1.2",
-  "unity": "2020.3"
+  "unity": "2019.3",
+  "author": {
+    "name": "Angga Permana",
+    "email": "sickape99@gmail.com",
+    "url": "https://github.com/sickape"
+  }
 }
