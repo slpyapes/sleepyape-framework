@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/sickape/sleepyape-framework/compare/v1.2.1...v1.3.0) (2021-06-16)
+
+
+### Features
+
+* add scriptable setting features ([2bec9fb](https://github.com/sickape/sleepyape-framework/commit/2bec9fb1c240c4949097af9d54b7937d3c8739a7))
+* add ValueAs<> on ObjectReference ([070c003](https://github.com/sickape/sleepyape-framework/commit/070c003549de64e2f3ff8bedc1c2e9363739ed49))
+
 ## [1.2.1](https://github.com/sickape/sleepyape-framework/compare/v1.2.0...v1.2.1) (2021-06-14)
 
 
