@@ -21,17 +21,7 @@ namespace SleepyApe
 
         private void AssignSettingAsset(SerializedProperty property)
         {
-            // Get all type inherit from Setting
-            var settingType = typeof(Setting);
-            var types = AppDomain.CurrentDomain
-                .GetAssemblies()
-                .SelectMany(type => type.GetTypes())
-                .Where(
-                    type => !type.IsInterface
-                    && !type.IsAbstract
-                    && type != settingType
-                    && settingType.IsAssignableFrom(type)
-                ).ToList();
+            var types = EditorHelper.FindDerivedTypes(typeof(Setting));
 
             foreach (var type in types)
             {
