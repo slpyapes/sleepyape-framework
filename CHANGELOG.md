@@ -1,3 +1,11 @@
+# [1.4.0](https://github.com/sickape/sleepyape-framework/compare/v1.3.0...v1.4.0) (2021-06-17)
+
+
+### Features
+
+* add options for custom setting asset path ([dff5869](https://github.com/sickape/sleepyape-framework/commit/dff586945518fbe41e7667890b821dff694aa255))
+* expose UseVariable on object derived from Reference ([9e70c4f](https://github.com/sickape/sleepyape-framework/commit/9e70c4f998c1188c07f34c2bf3f20b567f647473))
+
 # [1.3.0](https://github.com/sickape/sleepyape-framework/compare/v1.2.1...v1.3.0) (2021-06-16)
 
 
