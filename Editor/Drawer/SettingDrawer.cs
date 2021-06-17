@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
@@ -34,20 +33,27 @@ namespace SleepyApe
 
         private Setting CreateOrSelect(Type type)
         {
-            Setting settingAsset = null;
+            // Find asset with filter
             var guids = AssetDatabase.FindAssets($"t:{type}");
+            var sleepyApeSetting = SleepyApeSetting.GetInstance();
+
+            Setting settingAsset = null;
 
             foreach (var guid in guids)
             {
+                // Set asset if found
                 settingAsset = AssetDatabase.LoadAssetAtPath<Setting>(AssetDatabase.GUIDToAssetPath(guid));
                 break;
             }
 
             if (settingAsset == null)
             {
+                var fileDirectory = $"Assets/{sleepyApeSetting.DefaultSettingDirectory}";
+                // Create directory
+                EditorHelper.CreateDirectoryIfNotExists(fileDirectory);
+
                 var asset = ScriptableObject.CreateInstance(type);
-                // TODO: Handle setting for custom asset path
-                AssetDatabase.CreateAsset(asset, $"Assets/{type.ToString()}.asset");
+                AssetDatabase.CreateAsset(asset, $"{fileDirectory}{type.ToString()}.asset");
                 settingAsset = (Setting)asset;
             }
 

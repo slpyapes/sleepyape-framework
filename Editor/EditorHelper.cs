@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections;
+using System.IO;
 using System.Linq;
 
 namespace SleepyApe
@@ -17,6 +17,12 @@ namespace SleepyApe
                     && type != fromType
                     && fromType.IsAssignableFrom(type)
                 ).ToArray();
+        }
+
+        public static void CreateDirectoryIfNotExists(string directoryName)
+        {
+            if (!Directory.Exists(directoryName))
+                Directory.CreateDirectory(directoryName);
         }
     }
 }
