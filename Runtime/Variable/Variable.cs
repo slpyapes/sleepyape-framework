@@ -12,6 +12,10 @@ namespace SleepyApe
 
         private T _modifiedValue;
 
+        /// <summary>
+        /// Get Variable Value
+        /// </summary>
+        /// <value>Modified Value</value>
         public T Value
         {
             get => _modifiedValue;
