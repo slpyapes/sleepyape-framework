@@ -10,6 +10,9 @@ namespace SleepyApe
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <returns>Target T Object</returns>
-        public T ValueAs<T>() where T : Object => (T)Value;
+        public T ValueAs<T>() where T : Object
+        {
+            return (T)Value;
+        }
     }
 }

@@ -26,7 +26,10 @@ namespace SleepyApe
             }
         }
 
-        private void OnEnable() => _modifiedValue = _defaultValue;
+        private void OnEnable()
+        {
+            _modifiedValue = _defaultValue;
+        }
 
         public void Reset()
         {
