@@ -1,3 +1,16 @@
+# [1.5.0](https://github.com/sickape/sleepyape-framework/compare/v1.4.0...v1.5.0) (2021-09-06)
+
+
+### Features
+
+* add `GameObject.Destroy()` extensions ([7ab3f8d](https://github.com/sickape/sleepyape-framework/commit/7ab3f8de2ee0ee9559c7717420d8ac253f31dc1a))
+* add `GameObject.Disable()` extensions ([f5079fb](https://github.com/sickape/sleepyape-framework/commit/f5079fbd2ad85086a060308eb7656b603f26a995))
+* add `GameObject.Enable()` extensions ([d44cf8b](https://github.com/sickape/sleepyape-framework/commit/d44cf8b4b45fbca87ba1dd53d28a27a75604c8fa))
+* add `Transform.ClearChild()` extensions ([1da8f93](https://github.com/sickape/sleepyape-framework/commit/1da8f935faef31f0e229854dc94fc387ca4e5a46))
+* add `Transform.Reset()` extensions ([2e7f1ba](https://github.com/sickape/sleepyape-framework/commit/2e7f1ba615cea386bfccf58e876cc72fa65f7ac4))
+* add `Transform.ResetPosition()` extensions ([2d82c8e](https://github.com/sickape/sleepyape-framework/commit/2d82c8ec70db0a85fefd0487c3f2b2e47036dfc5))
+* add `Transform.ResetRotation()` extensions ([6b15234](https://github.com/sickape/sleepyape-framework/commit/6b15234ffe2751b12a83aa2e1c7f03bc5ca4a142))
+
 # [1.4.0](https://github.com/sickape/sleepyape-framework/compare/v1.3.0...v1.4.0) (2021-06-17)
 
 
