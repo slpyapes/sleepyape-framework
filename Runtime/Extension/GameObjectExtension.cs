@@ -13,5 +13,10 @@ namespace SleepyApe
         {
             target.SetActive(true);
         }
+
+        public static void Destroy(this GameObject target)
+        {
+            GameObject.Destroy(target);
+        }
     }
 }
