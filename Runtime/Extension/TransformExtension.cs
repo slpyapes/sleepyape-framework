@@ -19,5 +19,13 @@ namespace SleepyApe
         {
             target.rotation = Quaternion.Euler(0f, 0f, 0f);
         }
+
+        public static void ClearChild(this Transform target)
+        {
+            foreach (Transform child in target)
+            {
+                child.gameObject.Destroy();
+            }
+        }
     }
 }
