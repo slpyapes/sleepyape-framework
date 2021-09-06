@@ -8,5 +8,10 @@ namespace SleepyApe
         {
             target.SetActive(false);
         }
+
+        public static void Enable(this GameObject target)
+        {
+            target.SetActive(true);
+        }
     }
 }
