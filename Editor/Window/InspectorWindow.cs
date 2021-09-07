@@ -15,6 +15,16 @@ namespace SleepyApe
             window.Show();
         }
 
+        private void OnSelectionChange()
+        {
+            Repaint();
+        }
+
+        private void OnInspectorUpdate()
+        {
+            Repaint();
+        }
+
         private void OnGUI()
         {
             var activeGameObject = Selection.activeGameObject;
