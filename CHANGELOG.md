@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/sickape/sleepyape-framework/compare/v1.7.0...v1.7.1) (2021-09-07)
+
+
+### Bug Fixes
+
+* inspector not updated ([e87515d](https://github.com/sickape/sleepyape-framework/commit/e87515de0f43f8304bac03b8dc4af5ced95e3d99))
+
 # [1.7.0](https://github.com/sickape/sleepyape-framework/compare/v1.6.0...v1.7.0) (2021-09-07)
 
 
