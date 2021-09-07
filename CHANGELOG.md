@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/sickape/sleepyape-framework/compare/v1.5.0...v1.6.0) (2021-09-07)
+
+
+### Features
+
+* add `Tag` ([b9ee567](https://github.com/sickape/sleepyape-framework/commit/b9ee567207642bce5673c308290313b66fa0d691))
+
 # [1.5.0](https://github.com/sickape/sleepyape-framework/compare/v1.4.0...v1.5.0) (2021-09-06)
 
 
