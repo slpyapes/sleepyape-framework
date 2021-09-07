@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/sickape/sleepyape-framework/compare/v1.6.0...v1.7.0) (2021-09-07)
+
+
+### Features
+
+* add custom inspector ([debc5b4](https://github.com/sickape/sleepyape-framework/commit/debc5b40cb6fc3783a2bc59a8eab64ee6fa3796b))
+
 # [1.6.0](https://github.com/sickape/sleepyape-framework/compare/v1.5.0...v1.6.0) (2021-09-07)
 
 
