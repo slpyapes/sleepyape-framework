@@ -55,6 +55,9 @@ namespace SleepyApe
             var editor = Editor.CreateEditor(selectedComponent);
 
             _selectedComponent = GUILayout.Toolbar(_selectedComponent, guiContents.ToArray(), GUILayout.Height(20f));
+
+            EditorGUILayout.Separator();
+
             editor.OnInspectorGUI();
         }
     }
