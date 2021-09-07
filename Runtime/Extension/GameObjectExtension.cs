@@ -18,5 +18,16 @@ namespace SleepyApe
         {
             GameObject.Destroy(target);
         }
+
+        public static bool ContainTag(this GameObject target, Tag tag)
+        {
+            var tagComponent = target.GetComponent<TagComponent>();
+            if (tagComponent != null)
+            {
+                return tagComponent.Contains(tag);
+            }
+
+            return false;
+        }
     }
 }

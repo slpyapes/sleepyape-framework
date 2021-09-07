@@ -12,5 +12,10 @@ namespace SleepyApe
         {
             _tags.ForEach(tag => tag.Add(gameObject));
         }
+
+        public bool Contains(Tag tag)
+        {
+            return _tags.Contains(tag);
+        }
     }
 }
